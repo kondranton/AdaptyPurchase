@@ -13,7 +13,10 @@
 		1B1F547929C34ABC007338CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F547829C34ABC007338CE /* Preview Assets.xcassets */; };
 		1B4BF68C29CDDDBB007CF3BE /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BF68B29CDDDBB007CF3BE /* ProductView.swift */; };
 		1B6B47F029CCAE490052E1A7 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6B47EF29CCAE490052E1A7 /* SupportView.swift */; };
+		1B6B47F229CCFA3D0052E1A7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6B47F129CCFA3D0052E1A7 /* StoreKit.framework */; };
 		1B6E01B629C9187E00A1BE3C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E01B529C9187E00A1BE3C /* Store.swift */; };
+		1BAABFFB29DA42DE00B38E1C /* RefundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAABFFA29DA42DE00B38E1C /* RefundView.swift */; };
+		1BAD2E5D29D0BD1F00341811 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAD2E5C29D0BD1F00341811 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +27,12 @@
 		1B1F547829C34ABC007338CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B4BF68B29CDDDBB007CF3BE /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		1B6B47EF29CCAE490052E1A7 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		1B6B47F129CCFA3D0052E1A7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		1B6E01B529C9187E00A1BE3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		1BAABFFA29DA42DE00B38E1C /* RefundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefundView.swift; sourceTree = "<group>"; };
+		1BAD2E5C29D0BD1F00341811 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1BAD2E5E29D0CAF100341811 /* SyncedProducts.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SyncedProducts.storekit; sourceTree = "<group>"; };
+		1BCF9E0D29CDC1300027D8F3 /* Products.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Products.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6B47F229CCFA3D0052E1A7 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +68,16 @@
 			isa = PBXGroup;
 			children = (
 				1B1F547129C34AB9007338CE /* AdaptlyPurchaseApp.swift */,
+				1BAD2E5C29D0BD1F00341811 /* Persistence.swift */,
 				1B1F547329C34AB9007338CE /* ContentView.swift */,
 				1B4BF68B29CDDDBB007CF3BE /* ProductView.swift */,
 				1B6E01B529C9187E00A1BE3C /* Store.swift */,
 				1B6B47EF29CCAE490052E1A7 /* SupportView.swift */,
+				1BAABFFA29DA42DE00B38E1C /* RefundView.swift */,
 				1B1F547529C34ABC007338CE /* Assets.xcassets */,
 				1B1F547729C34ABC007338CE /* Preview Content */,
+				1BCF9E0D29CDC1300027D8F3 /* Products.storekit */,
+				1BAD2E5E29D0CAF100341811 /* SyncedProducts.storekit */,
 			);
 			path = AdaptyPurchase;
 			sourceTree = "<group>";
@@ -80,6 +93,7 @@
 		1B6E01B229C9117D00A1BE3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1B6B47F129CCFA3D0052E1A7 /* StoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,7 +170,9 @@
 			files = (
 				1B6B47F029CCAE490052E1A7 /* SupportView.swift in Sources */,
 				1B6E01B629C9187E00A1BE3C /* Store.swift in Sources */,
+				1BAABFFB29DA42DE00B38E1C /* RefundView.swift in Sources */,
 				1B1F547429C34AB9007338CE /* ContentView.swift in Sources */,
+				1BAD2E5D29D0BD1F00341811 /* Persistence.swift in Sources */,
 				1B4BF68C29CDDDBB007CF3BE /* ProductView.swift in Sources */,
 				1B1F547229C34AB9007338CE /* AdaptlyPurchaseApp.swift in Sources */,
 			);
